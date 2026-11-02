@@ -1,7 +1,7 @@
 # RahiOS — System Architecture Specification
 
 **Document ID:** RahiOS-ARCH-001  
-**Version:** 0.2  
+**Version:** 0.1  
 **Status:** Architecture Baseline — Proposed for Approval  
 **Project:** RahiOS  
 **Target Architecture:** x86-64  
@@ -224,7 +224,7 @@ The initial boot process will follow this sequence:
 
 1. Computer firmware initializes hardware.
 2. UEFI identifies the RahiOS boot entry.
-3. RescueOS bootloader is loaded.
+3. RahiOS bootloader is loaded.
 4. Bootloader validates and loads the kernel.
 5. Required boot information is collected.
 6. Memory map information is obtained.
@@ -495,7 +495,7 @@ The architecture will be considered approved when:
 
 **Document Control**
 
-Owner: Sajid Rahi
-Document: RahiOS-ARCH-001
-Version: 0.2
-Next Review: Before implementation planning is finalized.
+Owner: Sajid Ahmed Rahi  
+Document: RahiOS-ARCH-001  
+Version: 0.2  
+Next Review: Before implementation planning is finalized.  
